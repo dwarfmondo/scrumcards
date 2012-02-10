@@ -1,0 +1,89 @@
+@import compass/css3
+
+// For IE and Opera.
+$experimental-support-for-svg: true
+
+// `Site Styles.
+//----------------------------------------------------------------------------------------------------
+
+body
+  color: red
+  -moz-user-select: -moz-none
+  -webkit-user-select: none
+  -khtml-user-select: none
+  user-select: none
+  background: #000
+  margin: 0 auto
+  padding: 20px 0 0
+  width: 320px
+
+table
+  border-collapse: collapse
+  margin: 0 auto
+  width: 290px
+
+td
+  padding: 10px 0 0
+  width: 33.33%
+
+tr:first-child td
+  padding-top: 0
+
+div
+  cursor: pointer
+
+.card-small
+  +border-radius(15px)
+  background: #fff
+  color: #222
+  font: bold 40px/80px Arial, sans-serif
+  margin: 0 auto
+  padding: 3px
+  text-align: center
+  text-shadow: #fff 0 1px 1px
+  width: 80px
+
+.card-small span
+  +border-radius(13px)
+  background-color: #999
+  +background-image(linear-gradient(#fff, #ddd 10%, #999 90%, #666))
+  border: 1px solid #666
+  display: block
+
+.card-large
+  +border-radius(15px)
+  background: #fff
+  display: none
+  font: bold 250px/370px Arial, sans-serif
+  margin: 0 auto
+  padding: 4px
+  text-align: center
+  width: 272px
+
+.card-large span
+  +border-radius(13px)
+  background-color: #369
+  +background-image(linear-gradient(#09c, #036))
+  border: 2px solid #036
+  color: #fff
+  display: block
+  text-shadow: #000 0 2px 2px
+  overflow: hidden
+  height: 370px
+
+#card-large-13,
+#card-large-20,
+#card-large-40
+  font-size: 210px
+
+#card-large-100
+  font-size: 140px
+
+#card-large-voted
+  font-size: 260px
+  font-weight: normal
+
+#card-large-voted span
+  background-color: #090
+  +background-image(linear-gradient(#0c0, #060))
+  border-color: #060

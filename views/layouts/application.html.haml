@@ -1,0 +1,7 @@
+!!! 5
+%html{:lang => 'en-us', :manifest => 'cache.manifest'}
+  %head
+    = render '/shared/head'
+  %body
+    = yield
+    = render '/shared/javascripts'
