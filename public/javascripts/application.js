@@ -1,4 +1,4 @@
-(function(d) {
+(function(d, undefined) {
   var target;
   var grid = d.getElementById('card-small-grid');
   var voted = d.getElementById('card-large-voted');
@@ -14,12 +14,15 @@
     else if (this.id === 'card-large-voted') {
       voted.style.display = 'none';
       d.getElementById(target).style.display = 'block';
-      target = null;
+      target = undefined;
     }
     else if (this.className === 'card-large') {
       this.style.display = 'none';
       grid.style.display = '';
     }
+
+    this.blur();
+    return false;
   }
 
   while (i--) {
