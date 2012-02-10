@@ -16,3 +16,6 @@ Technical notes:
 - HTML, CSS, JS cached.
 - Minimal HTTP requests.
 - Runs fast on phones.
+
+To run locally, get Serve:
+- http://get-serve.com
