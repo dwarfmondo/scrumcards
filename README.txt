@@ -1,7 +1,7 @@
 SCRUM CARDS
 ===========
 
-This is an HTML5 "app" to assists in-person
+This is an HTML5 "app" to assist in-person
 Scrum (agile) project management estimation.
 
 It replaces the need for a native app on iPhone
