@@ -9,7 +9,7 @@ or Android, and adds an intermediary "I've voted"
 state that many "planning poker" phone apps lack.
 
 Live version here:
-- http://scrumcards.net
+- http://host.sonspring.com/scrum-cards
 
 Technical notes:
 - Uses no images.
